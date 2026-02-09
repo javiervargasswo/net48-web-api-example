@@ -31,3 +31,16 @@ Status: Complete
 
 Success - Pre-migration backup tag created for rollback safety
 
+
+## [2026-02-09 16:35] TASK-004: Convert WebApiExample.Common to SDK-Style
+
+Status: Complete
+
+- **Verified**: Project converted to SDK-style format
+- **Files Modified**: WebApiExample.Common\WebApiExample.Common.csproj
+- **Code Changes**: Converted from legacy .csproj to SDK-style, disabled auto-generation of AssemblyInfo
+- **Build Status**: Successful on net48 (0 errors, 0 warnings)
+- **Verified**: All 3 source files included (IRootEntity.cs, IUnitOfWork.cs, AssemblyInfo.cs)
+
+Success - SDK-style conversion completed and verified
+

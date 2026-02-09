@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>WebApiExample.Common</RootNamespace>
     <AssemblyName>WebApiExample.Common</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
