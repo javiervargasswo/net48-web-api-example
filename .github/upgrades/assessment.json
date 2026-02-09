@@ -1,0 +1,1235 @@
+{
+  "settings": {
+    "components": {
+      "code": false,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-02-09T19:49:32.1908617Z",
+  "analysisEndTime": "2026-02-09T19:49:41.2055903Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 4,
+      "issues": 9,
+      "incidents": 45,
+      "effort": 45
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 31,
+        "Optional": 7,
+        "Potential": 7,
+        "Information": 0
+      },
+      "category": {
+        "Project": 8,
+        "NuGet": 35,
+        "Feature": 2
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "WebApiExample.Common\\WebApiExample.Common.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "properties": {
+        "appName": "WebApiExample.Common",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 61,
+        "linesOfCode": 61,
+        "totalApiScanned": 10,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "090e188d-3a45-404a-b8d6-340b7ec35552",
+          "ruleId": "Project.0001",
+          "projectPath": "WebApiExample.Common\\WebApiExample.Common.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "WebApiExample.Common\\WebApiExample.Common.csproj"
+          }
+        },
+        {
+          "incidentId": "405d358a-49c8-4bba-a6ab-15df10692654",
+          "ruleId": "Project.0002",
+          "projectPath": "WebApiExample.Common\\WebApiExample.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "WebApiExample.Common\\WebApiExample.Common.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "WebApiExample.DataStore",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 110,
+        "linesOfCode": 110,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "882e7823-4576-4dfd-b8cb-9609ea5e8440",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1",
+              "protected": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1"
+            },
+            "kind": "File",
+            "path": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+            "snippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1",
+            "protectedSnippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1",
+            "label": "EntityFramework 6.4.4",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.4.4",
+              "PackageNewVersion": "6.5.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "328d4d75-2c12-493a-bd55-cc4f907ed598",
+          "ruleId": "NuGet.0005",
+          "projectPath": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1",
+              "protected": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1"
+            },
+            "kind": "File",
+            "path": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+            "snippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1",
+            "protectedSnippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1",
+            "label": "EntityFramework 6.4.4",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.4.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "81f0078d-d721-49b0-ab60-120235b2e943",
+          "ruleId": "Project.0001",
+          "projectPath": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj"
+          }
+        },
+        {
+          "incidentId": "099c27ba-02da-467b-9a20-56e2f8b34d21",
+          "ruleId": "Project.0002",
+          "projectPath": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "WebApiExample.DataStore\\WebApiExample.DataStore.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+      "startingProject": true,
+      "issues": 9,
+      "storyPoints": 23,
+      "properties": {
+        "appName": "WebApiExample.WebApp",
+        "projectKind": "Wap",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 92,
+        "numberOfCodeFiles": 61,
+        "linesTotal": 35574,
+        "linesOfCode": 3612,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "1f620357-35da-4324-ad14-26c54f359488",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+              "protected": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+            "protectedSnippet": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+            "label": "Antlr 3.5.0.2",
+            "properties": {
+              "PackageId": "Antlr",
+              "PackageVersion": "3.5.0.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Antlr4=4.6.6"
+            }
+          }
+        },
+        {
+          "incidentId": "62cf4e23-8e28-48de-98c6-62c938d5d942",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1",
+              "protected": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1",
+            "protectedSnippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.1",
+            "label": "EntityFramework 6.4.4",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.4.4",
+              "PackageNewVersion": "6.5.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ddb864a9-c8fb-40bf-b81a-2c39a93dffad",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Mvc, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Mvc, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.Mvc, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Mvc, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Mvc 5.2.4",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Mvc",
+              "PackageVersion": "5.2.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "5a7c9680-019a-4043-afa7-6d5c5de7143b",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Razor, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Razor, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.Razor, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Razor, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Razor 3.2.4",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Razor",
+              "PackageVersion": "3.2.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "47640d36-6e9d-4857-a17a-902b9da58470",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Web.Optimization 1.1.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization",
+              "PackageVersion": "1.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ac257ab4-43b5-4bdd-99f3-ec865ae1435f",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebApi, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.WebApi, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.WebApi, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.WebApi, 5.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.WebApi 5.2.4",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebApi",
+              "PackageVersion": "5.2.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "063fd0a3-5b8d-4470-aa9f-8a0e62f5dc2b",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.WebApi.Core 5.2.7",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebApi.Core",
+              "PackageVersion": "5.2.7",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "380464c5-4c7d-4b33-b156-40dc9c8f2e30",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebApi.WebHost, 5.2.4\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.WebApi.WebHost, 5.2.4\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.WebApi.WebHost, 5.2.4\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.WebApi.WebHost, 5.2.4\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.WebApi.WebHost 5.2.4",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebApi.WebHost",
+              "PackageVersion": "5.2.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1e902271-3e17-4a4a-ad90-1465ffa28bd4",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebPages, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.WebPages, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.WebPages, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.WebPages, 3.2.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.WebPages 3.2.4",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebPages",
+              "PackageVersion": "3.2.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "78602689-80e7-4d91-a95e-5c8025c675c1",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 2.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 2.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 2.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform, 2.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.CodeDom.Providers.DotNetCompilerPlatform",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "04d55c0b-6c66-468d-ad13-81fbcb16a261",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b1b85fb3-e176-496e-ac2a-cca2a9603254",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+              "protected": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "label": "Newtonsoft.Json 11.0.1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "11.0.1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f333898d-6b34-4115-97f7-4d74be02fa8b",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Runtime.CompilerServices.Unsafe, 4.5.2\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+              "protected": "System.Runtime.CompilerServices.Unsafe, 4.5.2\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "System.Runtime.CompilerServices.Unsafe, 4.5.2\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+            "protectedSnippet": "System.Runtime.CompilerServices.Unsafe, 4.5.2\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+            "label": "System.Runtime.CompilerServices.Unsafe 4.5.2",
+            "properties": {
+              "PackageId": "System.Runtime.CompilerServices.Unsafe",
+              "PackageVersion": "4.5.2",
+              "PackageNewVersion": "6.1.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "358bcc55-67c1-416a-b4b5-ea0c81640a8d",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Unity.WebAPI, 5.4.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Unity.WebAPI, 5.4.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Unity.WebAPI, 5.4.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Unity.WebAPI, 5.4.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Unity.WebAPI 5.4.0",
+            "properties": {
+              "PackageId": "Unity.WebAPI",
+              "PackageVersion": "5.4.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "74a3a408-8851-41ec-b614-7b72afa44fa6",
+          "ruleId": "NuGet.0004",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bootstrap, 3.3.7\n\nRecommendation:\n\nbootstrap, 5.3.8",
+              "protected": "bootstrap, 3.3.7\n\nRecommendation:\n\nbootstrap, 5.3.8"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "bootstrap, 3.3.7\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "protectedSnippet": "bootstrap, 3.3.7\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "label": "bootstrap 3.3.7",
+            "properties": {
+              "PackageId": "bootstrap",
+              "PackageVersion": "3.3.7",
+              "PackageNewVersion": "5.3.8",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "effac6e1-c1bb-4056-9dc7-f83b5807d8cb",
+          "ruleId": "NuGet.0005",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1",
+              "protected": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1",
+            "protectedSnippet": "EntityFramework, 6.4.4\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.1",
+            "label": "EntityFramework 6.4.4",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.4.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4380506d-e954-428c-bb6c-b9f000907948",
+          "ruleId": "NuGet.0004",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery, 3.3.1\n\nRecommendation:\n\njQuery, 3.7.1",
+              "protected": "jQuery, 3.3.1\n\nRecommendation:\n\njQuery, 3.7.1"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "jQuery, 3.3.1\n\nRecommendation:\n\njQuery, 3.7.1",
+            "protectedSnippet": "jQuery, 3.3.1\n\nRecommendation:\n\njQuery, 3.7.1",
+            "label": "jQuery 3.3.1",
+            "properties": {
+              "PackageId": "jQuery",
+              "PackageVersion": "3.3.1",
+              "PackageNewVersion": "3.7.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c4fb9fc9-d829-4e6a-940d-e155be07c80b",
+          "ruleId": "NuGet.0005",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+              "protected": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+            "label": "Microsoft.AspNet.Web.Optimization 1.1.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization",
+              "PackageVersion": "1.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1e96ffac-a31f-4844-986e-4832ce5e2710",
+          "ruleId": "NuGet.0004",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+              "protected": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "label": "Newtonsoft.Json 11.0.1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "11.0.1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "517d6b10-b7dc-4b9b-b186-c235f9f60993",
+          "ruleId": "Project.0001",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj"
+          }
+        },
+        {
+          "incidentId": "af0311c7-ab14-4d4e-ab0a-b38c83067373",
+          "ruleId": "Project.0002",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "997e50ed-4b42-4843-bd66-6eb44bcc22e2",
+          "ruleId": "Feature.0001",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\Views\\Shared\\_Layout.cshtml"
+          }
+        },
+        {
+          "incidentId": "d039aa2b-b48c-4f9d-8c20-35b6e812ccf6",
+          "ruleId": "Feature.1000",
+          "projectPath": "WebApiExample.WebApp\\WebApiExample.WebApp.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "WebApiExample.WebApp\\Global.asax.cs"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+      "startingProject": true,
+      "issues": 6,
+      "storyPoints": 16,
+      "properties": {
+        "appName": "WebApiExample.WebApp.Tests",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 439,
+        "linesOfCode": 393,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e0af461a-5a84-46fa-9141-6648906350bc",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Mvc, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Mvc, 5.2.7\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Microsoft.AspNet.Mvc, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Mvc, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Mvc 5.2.7",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Mvc",
+              "PackageVersion": "5.2.7",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "2cafa2e7-b88f-479f-ba65-4aeddf989036",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Razor, 3.2.7\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Razor, 3.2.7\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Microsoft.AspNet.Razor, 3.2.7\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Razor, 3.2.7\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Razor 3.2.7",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Razor",
+              "PackageVersion": "3.2.7",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f3ef82b4-f41a-42bb-9532-dc6afe500bb7",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.WebApi.Core, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.WebApi.Core 5.2.7",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebApi.Core",
+              "PackageVersion": "5.2.7",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "56deafde-64bb-4466-a200-52d5c5cc3d51",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebApi.WebHost, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.WebApi.WebHost, 5.2.7\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Microsoft.AspNet.WebApi.WebHost, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.WebApi.WebHost, 5.2.7\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.WebApi.WebHost 5.2.7",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebApi.WebHost",
+              "PackageVersion": "5.2.7",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "eecab66f-1013-4cb8-914b-1f539ac6754a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebPages, 3.2.7\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.WebPages, 3.2.7\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Microsoft.AspNet.WebPages, 3.2.7\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.WebPages, 3.2.7\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.WebPages 3.2.7",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebPages",
+              "PackageVersion": "3.2.7",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c52048b0-a87c-4a75-9b4a-1728603d6efe",
+          "ruleId": "NuGet.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "df33a296-ace8-4568-9687-c56608e68616",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+              "protected": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "label": "Newtonsoft.Json 11.0.1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "11.0.1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d71b6aa8-a80a-429d-956e-3404bf849f7c",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Buffers, 4.5.1\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Buffers 4.5.1",
+            "properties": {
+              "PackageId": "System.Buffers",
+              "PackageVersion": "4.5.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "638c15f4-9196-46e6-ae4f-e4bc14da495b",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Memory, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Memory, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "System.Memory, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Memory, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Memory 4.5.4",
+            "properties": {
+              "PackageId": "System.Memory",
+              "PackageVersion": "4.5.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6102da2f-2a9f-4cd4-a066-1ff0290b9941",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Numerics.Vectors, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Numerics.Vectors 4.5.0",
+            "properties": {
+              "PackageId": "System.Numerics.Vectors",
+              "PackageVersion": "4.5.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "9a452e0f-740f-46d8-ac97-c6d027910dfd",
+          "ruleId": "NuGet.0002",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+              "protected": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+            "protectedSnippet": "System.Runtime.CompilerServices.Unsafe, 4.5.3\n\nRecommendation:\n\nRemove System.Runtime.CompilerServices.Unsafe, and replace with new package System.Runtime.CompilerServices.Unsafe 6.1.2",
+            "label": "System.Runtime.CompilerServices.Unsafe 4.5.3",
+            "properties": {
+              "PackageId": "System.Runtime.CompilerServices.Unsafe",
+              "PackageVersion": "4.5.3",
+              "PackageNewVersion": "6.1.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "292f9b0b-d707-470d-8098-a67da978fbd9",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Runtime.InteropServices.RuntimeInformation, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Runtime.InteropServices.RuntimeInformation, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "System.Runtime.InteropServices.RuntimeInformation, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Runtime.InteropServices.RuntimeInformation, 4.3.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Runtime.InteropServices.RuntimeInformation 4.3.0",
+            "properties": {
+              "PackageId": "System.Runtime.InteropServices.RuntimeInformation",
+              "PackageVersion": "4.3.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "85f9842f-40f7-4e88-af90-ab2b9d74206b",
+          "ruleId": "NuGet.0003",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Threading.Tasks.Extensions, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.Threading.Tasks.Extensions, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "System.Threading.Tasks.Extensions, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.Threading.Tasks.Extensions, 4.5.4\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.Threading.Tasks.Extensions 4.5.4",
+            "properties": {
+              "PackageId": "System.Threading.Tasks.Extensions",
+              "PackageVersion": "4.5.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e5fd8d61-1c5a-4e21-9204-8980cc99ce05",
+          "ruleId": "NuGet.0004",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+              "protected": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 11.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "label": "Newtonsoft.Json 11.0.1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "11.0.1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "239055e1-a063-4d78-9ee0-e5a7c12b0d42",
+          "ruleId": "Project.0001",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj"
+          }
+        },
+        {
+          "incidentId": "1f04b3c3-923a-42d4-9f01-c64b7a8cee42",
+          "ruleId": "Project.0002",
+          "projectPath": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "WebApiExample.WebApp.Tests\\WebApiExample.WebApp.Tests.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "isFeature": false,
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0004": {
+      "id": "NuGet.0004",
+      "isFeature": false,
+      "description": "NuGet package contains security vulnerabilities.\n\nPackage needs to be upgraded to a newer version that addresses known security vulnerabilities.",
+      "label": "NuGet package contains security vulnerability",
+      "severity": "Optional",
+      "effort": 1
+    },
+    "Feature.0001": {
+      "id": "Feature.0001",
+      "isFeature": true,
+      "description": "System.Web.Optimization bundling and minification is not supported in .NET Core and should be replaced with actual html tags pointing to content files.",
+      "label": "System.Web.Optimization bundling and minification is not supported in .NET Core and should be replaced with actual html tags pointing to content files",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Feature.1000": {
+      "id": "Feature.1000",
+      "isFeature": true,
+      "description": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs.",
+      "label": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
